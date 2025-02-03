@@ -14,7 +14,7 @@ function categories_ClimatsdeBourgogneINAOSC_4(feature, value, size, resolution,
                     break;
 case 'Premier Cru':
                     return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(255,102,0,0.5019607843137255)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,102,0,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.9}),fill: new ol.style.Fill({color: 'rgba(255,102,0,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
@@ -22,7 +22,7 @@ case 'Premier Cru':
                     break;
 case 'Village':
                     return [ new ol.style.Style({
-        fill: new ol.style.Fill({color: 'rgba(255,191,13,0.5019607843137255)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(255,191,13,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.9}),fill: new ol.style.Fill({color: 'rgba(255,191,13,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
