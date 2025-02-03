@@ -6,7 +6,7 @@ function categories_ClimatsdeBourgogneINAOSC_4(feature, value, size, resolution,
                 var valueStr = (value !== null && value !== undefined) ? value.toString() : 'default';
                 switch(valueStr) {case 'Grand Cru':
                     return [ new ol.style.Style({
-        stroke: new ol.style.Stroke({color: 'rgba(200,200,200,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.4}),fill: new ol.style.Fill({color: 'rgba(173,42,48,0.5019607843137255)'}),
+        stroke: new ol.style.Stroke({color: 'rgba(200,200,200,1.0)', lineDash: null, lineCap: 'butt', lineJoin: 'miter', width: 0.6}),fill: new ol.style.Fill({color: 'rgba(173,42,48,0.5019607843137255)'}),
         text: createTextStyle(feature, resolution, labelText, labelFont,
                               labelFill, placement, bufferColor,
                               bufferWidth)
