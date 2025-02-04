@@ -67,9 +67,9 @@ var lyr_ClimatsdeBourgogneINAOSC_4 = new ol.layer.Vector({
                 declutter: false,
                 source:jsonSource_ClimatsdeBourgogneINAOSC_4, 
                 style: style_ClimatsdeBourgogneINAOSC_4,
-                popuplayertitle: 'Climats de Bourgogne (INAO / SC)',
+                popuplayertitle: 'Appellation',
                 interactive: true,
-    title: 'Climats de Bourgogne (INAO / SC)<br />\
+    title: 'Appellation<br />\
     <img src="styles/legend/ClimatsdeBourgogneINAOSC_4_0.png" /> Grand Cru<br />\
     <img src="styles/legend/ClimatsdeBourgogneINAOSC_4_1.png" /> Premier Cru<br />\
     <img src="styles/legend/ClimatsdeBourgogneINAOSC_4_2.png" /> Village<br />\
